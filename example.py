@@ -1,9 +1,6 @@
 import smartpy as sp
 import time
 
-#check out this contract in the wild! KT1HUAA7excLzjWq1YNn2ugPwRAqAYg1X5Z1
-#I'm still learning so implimenting a balance check with the stake value)
-#entry point for all contracts named class and inherited from sp.Contract
 
 class ScrillaBook(sp.Contract):
     def __init__(self,e,a,s):
