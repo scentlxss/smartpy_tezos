@@ -41,6 +41,7 @@ class ScrillaBook(sp.Contract):
                         author = params.a,
                         stake = sp.amount
             )
+        self.data.last = sp.sender
 
 
     @sp.entry_point
